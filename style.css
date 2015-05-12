@@ -1,0 +1,194 @@
+body {
+    background-color: black;
+    color: lightblue;
+}
+.wrap {
+    margin: 200px auto;
+    text-align: center;
+}
+button {
+    height: 40px;
+    width: 125px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    background: lightgrey;
+}
+.stopwatch {
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+    position: relative;
+    height: 200px;
+    width: 850px;
+}
+.digits div {
+    display: inline-block;
+    height: 150px;
+    width: 100px;
+    position: relative;
+}
+
+.topdot {
+    background-color: lightblue;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    top: 50px;
+}
+.lowdot {
+    height: 15px;
+    width: 15px;
+    background-color: lightblue;
+    border-radius: 50%;
+    bottom: 50px;
+}
+.hor, .ver, .mid, .low, .tright, .bright, .tleft, .bright, .toptip, .bottip, .righttip, .lefttip, .topdot, .lowdot {
+    position: absolute;
+}
+
+.hor {
+    background-color: lightblue;
+    box-shadow: 0 0 8px rgba(255,255, 255, 0.7);
+}
+.ver {
+    background-color: lightblue;
+    height: 15px;
+    width: 45px;
+    top: 0;
+    left: 21px;
+    border-width: 0 0 5px 5px;
+    opacity: 0;
+}
+.lefttip {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid lightblue;
+    right: 44px;
+}
+.righttip {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid lightblue;
+    right: -8px;
+}
+.low {
+    background-color: lightblue;
+    height: 15px;
+    width: 45px;
+    bottom: 0;
+    left: 21px;
+    opacity: 0;
+}
+.mid {
+    background-color: lightblue;
+    height: 15px;
+    width: 45px;
+    top: 68px;
+    left: 21px;
+    opacity: 0;
+}
+.tleft {
+    background-color: lightblue;
+    width: 15px;
+    height: 50px;
+    left: 6px;
+    top: 16px;
+    opacity: 0;
+}
+.bleft {
+    background-color: lightblue;
+    width: 15px;
+    height: 50px;
+    left: 6px;
+    top: 84px;
+    opacity: 0;
+}
+.tright {
+    background-color: lightblue;
+    width: 15px;
+    height: 50px;
+    right: 19px;
+    top: 16px;
+    opacity: 0;
+}
+.bright {
+    background-color: lightblue;
+    width: 15px;
+    height: 50px;
+    right: 19px;
+    top: 84px;
+    opacity: 0;
+}
+.toptip {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid lightblue;
+    top: -8px;
+    left: 0;
+}
+.bottip{
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid lightblue;
+    top: 50px;
+    left: 0;
+}
+
+/*num-0*/
+.num-0 .ver,.num-0 .low,.num-0 .tleft,.num-0 .tright,.num-0 .bright,.num-0 .bleft,
+.num-10 .ver,.num-10 .low,.num-10 .tleft,.num-10 .tright,.num-10 .bright,.num-10 .bleft{
+ opacity: 1;
+}
+
+/*num-1 */
+.num-1 .tright, .num-1 .bright {
+    opacity: 1;
+}
+
+/*num-2 */
+.num-2 .ver, .num-2 .mid,.num-2 .low,.num-2 .tright,.num-2 .bleft {
+    opacity: 1;
+}
+ /*num-3*/
+.num-3 .ver, .num-3 .mid, .num-3 .low,.num-3 .tright, .num-3 .bright {
+    opacity: 1;
+}
+
+/*num-4 */
+.num-4 .mid,.num-4 .tright,.num-4 .tleft,.num-4 .bright {
+    opacity: 1;
+}
+
+/*num-5 */
+.num-5 .ver,.num-5 .mid,.num-5 .low,.num-5 .tleft,.num-5 .bright {
+    opacity: 1;
+}
+
+/*num-6*/
+.num-6 .ver,.num-6 .mid,.num-6 .low,.num-6 .tleft,.num-6 .bright,.num-6 .bleft {
+    opacity: 1;
+}
+
+/*num-7*/
+.num-7 .ver,.num-7 .tright, .num-7 .bright {
+    opacity: 1;
+}
+
+/*num-8 */
+.num-8 .ver, .num-8 .mid, .num-8 .low,.num-8 .tleft,.num-8 .tright,.num-8 .bright,.num-8 .bleft {
+    opacity: 1;
+}
+
+/*num-9*/
+.num-9 .ver,.num-9 .mid,.num-9 .low,.num-9 .tleft,.num-9 .tright,.num-9 .bright {
+    opacity: 1;
+}
+
+
+
